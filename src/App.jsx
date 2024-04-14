@@ -16,7 +16,7 @@ function App() {
   useEffect(() => {
     const getData = async () => {
       try {
-        const response = await axios.get(SERVER_URI, { timeout: 5000 })
+        const response = await axios.get(SERVER_URI)
         setListItem(response.data)
         setIsLoading(false)
       } catch (err) {
