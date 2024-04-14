@@ -1,5 +1,5 @@
-import axios from 'axios'
+import axios from "axios";
 
 export default axios.create({
-  baseURL: 'http://localhost:8904',
-})
+  baseURL: "https://to-do-list-api-n5zr.onrender.com",
+});
